@@ -1,4 +1,4 @@
-### 🧠 Kiley Kennedy — Professional Portfolio
+# 🧠 Kiley Kennedy — Professional Portfolio
 
 Welcome to my project portfolio!
 This repository highlights a collection of my recent completed projects in epidemiology, data science, and public health research. Each project demonstrates my ability to apply quantitative methods, data visualization, and scientific reasoning to real-world health and environmental data.
