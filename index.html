@@ -302,35 +302,25 @@
         </div>
       </article>
 
-      <!-- TEMPLATE: copy this block for each additional epidemiology / R project, fill it in, then delete the .todo highlights.
-           If you don't have another one, delete the whole block. -->
       <article class="project">
-        <p class="kind">Epidemiology project - Water Quality and Mortality</p>
-        <h3>Drinking water contamination as a population-wide determinant of mortality 
-in California</h3>
-        <p>Drinking water contamination, is a known determinant of adverse health outcomes, and remains 
-widespread and inequitably distributed amidst aging infrastructure. The extent to 
-which existing concentrations of contaminants at the public water system level directly affect 
-population health remains poorly understood. </p>
+        <p class="kind">Epidemiology · Preprint (not yet peer reviewed) · First author</p>
+        <h3>Drinking water contamination as a population-wide determinant of mortality in California</h3>
+        <p>Drinking water contamination is a known determinant of adverse health outcomes and remains widespread and inequitably distributed amid aging infrastructure. How existing contaminant concentrations at the public water system level affect population health is still poorly understood.</p>
         <ul>
-          <li>Large-scale data analysis of 20 million water 
-samples from 2012-2022 in California, assessing the impact of 55 different water contaminants 
-on all-cause mortality.</li>
-          <li>To estimate the association between water analyte concentrations and mortality rates, a two-way 
-fixed effects regression model was employed. Each analyte was modeled with zip-code and year 
-included as fixed effects to adjust for time-invariant and temporal confounders. </li>
-          <li>Surfactants were associated with increased mortality, with each standard deviation increase in 
-concentration associated with 0.46% (95% Confidence Interval: [0.14, 0.79]) increases in 
-all-cause mortality </li>
+          <li>Analyzed 20 million water samples from 2012–2022 in California, assessing the association between 55 water contaminants and all-cause mortality.</li>
+          <li>Estimated each association with a two-way fixed effects Poisson regression, with zip code and year as fixed effects to adjust for time-invariant and temporal confounders.</li>
+          <li>Surfactants were associated with increased mortality: each standard deviation increase in concentration corresponded to a 0.46% increase in all-cause mortality (95% CI: 0.14, 0.79).</li>
+          <li>Tested robustness with alternative model specifications, distributed lag models, and a negative-control lead variable. Of nine contaminants significant after multiple-testing correction, two held up. Mixture analysis (quantile g-computation) found a toxic metals mixture associated with a 6.77% increase in mortality per quartile (95% CI: 2.32, 11.42).</li>
         </ul>
         <ul class="tags" aria-label="Technologies">
-          <li>R</li><li>ggplot2</li><li><span class="todo">add methods</span></li>
+          <li>R</li><li>fixest</li><li>Poisson regression</li><li>Fixed effects</li><li>Distributed lag models</li><li>Quantile g-computation</li><li>GAMs</li><li>ggplot2</li>
         </ul>
         <div class="links">
-          <a href="https://github.com/kkenne38/project-examples/tree/main/r_examples">View code</a>
+          <a href="https://arxiv.org/abs/2509.08186">Read the preprint (arXiv)</a>
+          <a href="https://arxiv.org/pdf/2509.08186">PDF</a>
         </div>
       </article>
-
+      
       <div class="more">
         <h3>More examples</h3>
         <p>Smaller apps in the <a href="https://github.com/kkenne38/project-examples/tree/main/python_examples">project repository</a>: a Quick Commute Planner for the London Underground (Streamlit and the TfL API), a Global GDP Explorer, and a BMI calculator.</p>
