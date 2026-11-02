@@ -273,7 +273,7 @@
         <ul>
           <li>Compares any combination of countries on one chart, with a toggle between daily and cumulative case counts.</li>
           <li>Built on the Johns Hopkins CSSE time series and displayed as interactive line charts.</li>
-          <li><span class="todo">Add one sentence on how you cleaned or reshaped the data (for example, converting cumulative counts to daily new cases and smoothing with a 7-day average).</span></li>
+          <li>Data was cleaned and reshaped focusing on converting cumulative counts to daily new cases and smoothing with a 7-day average.</li>
         </ul>
         <ul class="tags" aria-label="Technologies">
           <li>Python</li><li>Streamlit</li><li>Plotly</li><li>pandas</li>
@@ -305,13 +305,23 @@
       <!-- TEMPLATE: copy this block for each additional epidemiology / R project, fill it in, then delete the .todo highlights.
            If you don't have another one, delete the whole block. -->
       <article class="project">
-        <p class="kind">Epidemiology project</p>
-        <h3><span class="todo">Project title</span></h3>
-        <p><span class="todo">One sentence on the research question and why it matters.</span></p>
+        <p class="kind">Epidemiology project - Water Quality and Mortality</p>
+        <h3>Drinking water contamination as a population-wide determinant of mortality 
+in California</h3>
+        <p>Drinking water contamination, is a known determinant of adverse health outcomes, and remains 
+widespread and inequitably distributed amidst aging infrastructure. The extent to 
+which existing concentrations of contaminants at the public water system level directly affect 
+population health remains poorly understood. </p>
         <ul>
-          <li><span class="todo">Data: source and size</span></li>
-          <li><span class="todo">Method: the model you used and why it fit the question</span></li>
-          <li><span class="todo">Result: your key finding, ideally with a number</span></li>
+          <li>Large-scale data analysis of 20 million water 
+samples from 2012-2022 in California, assessing the impact of 55 different water contaminants 
+on all-cause mortality.</li>
+          <li>To estimate the association between water analyte concentrations and mortality rates, a two-way 
+fixed effects regression model was employed. Each analyte was modeled with zip-code and year 
+included as fixed effects to adjust for time-invariant and temporal confounders. </li>
+          <li>Surfactants were associated with increased mortality, with each standard deviation increase in 
+concentration associated with 0.46% (95% Confidence Interval: [0.14, 0.79]) increases in 
+all-cause mortality </li>
         </ul>
         <ul class="tags" aria-label="Technologies">
           <li>R</li><li>ggplot2</li><li><span class="todo">add methods</span></li>
