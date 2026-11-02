@@ -249,9 +249,10 @@
         <ul>
           <li>Built two workflows in one app: exploratory analysis of historical measurements and a forecasting tool for individual contaminants, such as benzene.</li>
           <li>Lets the user pick the prediction model, including a simple neural network trained on demand for the selected zip code and contaminant.</li>
-          <li><span class="todo">Data source and size: where the data came from and how many records and zip codes it covers.</span></li>
-          <li><span class="todo">Validation: how you checked the forecasts (for example a held-out final year) and the error you got.</span></li>
-          <li><span class="todo">Key finding: one result with a number, such as a contaminant that trended up or down in a specific area.</span></li>
+          <li>Data source and size: California State Water Resources Control , Division of Drinking Water. Between the years 2011 and 2022 19,586,330 samples were 
+          collected and reported to the DDW and used for this analysis.</span></li>
+          <li>Validation: Forecasts were limited to years where data was present and therefore checked by comparing forecast to known level.</span></li>
+          <li>Key finding: Users were able to see in real time their water contaminants levels over the past 11 years, selecting the analyte they were most interested in.</span></li>
         </ul>
         <ul class="tags" aria-label="Technologies">
           <li>Python</li><li>Streamlit</li><li>Neural networks</li><li>Time-based forecasting</li><li>Environmental data</li>
